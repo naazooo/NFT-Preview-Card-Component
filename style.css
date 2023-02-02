@@ -21,7 +21,7 @@ border-radius: 15px;
 
 .nft_cube{
     max-width: 100%;
-    border-radius: 8px;
+    display: block;
 }
 
 .nft_title{
@@ -32,6 +32,7 @@ border-radius: 15px;
 .nft_desc{
     color: hsl(215, 51%, 70%);
     font-weight: 200;
+    line-height: 27px;
 }
 
 .row{
@@ -83,4 +84,32 @@ hr{
 
 .card_creator_name{
     color: hsl(0, 0%, 100%);
+}
+
+.nft_title:hover, .card_creator_name:hover, .cube_2color:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.cube_2color{
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: hsl(178, 100%, 50%);
+
+}
+
+.icon_eye{
+    position: absolute;
+    top: 41%;
+    left: 41%;
+    visibility: hidden;
+}
+
+.cube_2color:hover .nft_cube{
+    opacity: 0.5;
+}
+
+.cube_2color:hover .icon_eye{
+    visibility: visible;
 }
