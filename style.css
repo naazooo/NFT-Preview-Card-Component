@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+font-family: "Outfit";
+font-size: 17px;
+background-color:hsl(217, 54%, 11%);
+margin: 0;
+padding: 0;
+display: grid;
+place-content: center;
+min-height: 100vh;
+}
+
+.maincard{
+background-color:hsl(216, 50%, 16%);
+width: 327px;
+box-sizing: border-box;
+padding: 24px;
+border-radius: 15px;
+}
+
+.nft_cube{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.nft_title{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+}
+
+.nft_desc{
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row span{
+    vertical-align: top;
+    font-size: 17px;
+    padding-left: 3px;
+}
+
+.nft_price{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    
+}
+
+.nft_time{
+    color: hsl(215, 51%, 70%);
+    
+}
+
+hr{
+    border: none;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin: 20px 0;
+
+}
+
+.card_footer{
+    display: flex;
+    align-items: center;
+}
+
+.card_footer p{
+    margin: 0;
+    margin-left: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar{
+    max-width: 12%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+.card_creator_name{
+    color: hsl(0, 0%, 100%);
+}
